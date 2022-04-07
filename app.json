@@ -1,0 +1,216 @@
+{
+    "name": "[🇱🇰𝐊𝐢𝐧𝐠 𝐁𝐨𝐭✌️] WhatsApp User Bot v1.0.0",
+    "description": "World best Sinhala/English WhatsApp Bot Developer 𝙽𝙴𝚃𝙷𝚂𝙰𝚁𝙰 𝙶𝙸𝙼𝙷𝙰𝙽 Enjoy Our Bot",
+    "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
+    "keywords": ["Nethsara Gimhan | PG", "King Bot"],
+    "stack": "container",
+    "env": {
+      "KINGBOT_SESSION": {
+            "description": "Paste your QR session that you got from https://replit.com/@ACSamankumara/King-bot-2.",
+            "required": true
+        },
+        "ALIVE_LOGO": {
+            "description": "If you do not want to change Alive Logo put here to your image direct link or, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "SONG_UPLOAD": {
+            "description": "SONG UPLOAFING MESSAGE",
+            "value": "*ඔබගේ ගීතය 🅄🄿🄻🄾🄰🄳 කරමින් පවතියි⃝⃝̈̍̍̍̈̇̑🔥̥̥̥̥̤̤̤⃟⃟✨᭄*\n\n00:00 ●━━━━━━━━━━━━ 03:30 \n    ⇆        ◁ㅤㅤ❚❚ㅤㅤ▷          ↻\n\n════════════❀⦂⦁◦►\n𝙿𝙾𝚆𝙴𝚁𝙴𝙳 ʙʏ  [🇱🇰𝐊𝐢𝐧𝐠 𝐁𝐨𝐭✌️]\n════════════❀⦂⦁◦►"
+        },
+        "SONG_DOWNLOAD": {
+            "description": "SONG DOWNLOADING MESSAGE",
+            "value": "*ඔබගේ ගීතය 🄳🄾🅆🄽🄻🄾🄰🄳 කරමින් පවතියි⃝⃝̈̍̍̍̈̇̑🔥̥̥̥̥̤̤̤⃟⃟✨᭄*\n\n00:00 ●━━━━━━━━━━━━ 03:30 \n    ⇆        ◁ㅤㅤ❚❚ㅤㅤ▷          ↻\n\n════════════❀⦂⦁◦►\n𝙿𝙾𝚆𝙴𝚁𝙴𝙳 ʙʏ  [🇱🇰𝐊𝐢𝐧𝐠 𝐁𝐨𝐭✌️]\n════════════❀⦂⦁◦►"
+        },
+        "VIDEO_UPLOAD": {
+            "description": "VIDEO UPLOADING MESSAGE",
+            "value":"*ඔබගේ වීඩියෝව 🄳🄾🅆🄽🄻🄾🄰🄳 කරමින් පවතියි⃝⃝̈̍̍̍̈̇̑🔥̥̥̥̥̤̤̤⃟⃟✨᭄*\n\n00:00 ●━━━━━━━━━━━━ 03:30 \n    ⇆        ◁ㅤㅤ❚❚ㅤㅤ▷          ↻\n\n════════════❀⦂⦁◦►\n𝙿𝙾𝚆𝙴𝚁𝙴𝙳 ʙʏ  [🇱🇰𝐊𝐢𝐧𝐠 𝐁𝐨𝐭✌️]\n════════════❀⦂⦁◦►"
+        },
+        "VIDEO_DOWNLOAD": {
+            "description": "VIDEO DOWNLOADING MESSAGE",
+            "value":"*ඔබගේ වීඩියෝව 🅄🄿🄻🄾🄰🄳 කරමින් පවතියි⃝⃝̈̍̍̍̈̇̑🔥̥̥̥̥̤̤̤⃟⃟✨᭄*\n\n00:00 ●━━━━━━━━━━━━ 03:30 \n    ⇆        ◁ㅤㅤ❚❚ㅤㅤ▷          ↻\n\n════════════❀⦂⦁◦►\n𝙿𝙾𝚆𝙴𝚁𝙴𝙳 ʙʏ  [🇱🇰𝐊𝐢𝐧𝐠 𝐁𝐨𝐭✌️]\n════════════❀⦂⦁◦►"
+        },
+        "TIME_ZONE": {
+            "description": "YOUR COUNTRY TIME ZONE ලන්කාවෙ අය තියන විදිහට තියන්න..",
+            "value":"Asia/Colombo"
+        },
+        "SUDO": {
+            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)",
+            "required": false
+        },
+        "LANGUAGE": {
+            "description": "Enter your language. To enable Sinhala, type SI. or to enable English, type EN.",
+            "required": true,
+            "value": "si"
+        },
+        "WELCOME": {
+            "description": "Welcome message type pp or gif",
+            "required": true,
+            "value": "gif"
+        },
+        "AUTO_BIO": {
+            "description": "Setup AUTO BIO feature. Adding a live clock for your WhatsApp about.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "Do not change ❌ .  bot prefix to use commands.",
+            "required": true,
+            "value": "^[.!#$,*@]"
+        },
+        "ANTIBAD": {
+            "description": "Set True , Activate Anti-Bad word for your groups.",
+            "required": true,
+            "value": "false"
+        },
+        "ANTI_LINK": {
+            "description": "Set True , Activate anti link for your groups.",
+            "required": true,
+            "value": "false"
+        },
+        "GROUP_RULES": {
+            "description": "Set your group Rules.",
+            "required": true,
+            "value": "No Rules"
+        },
+        "GROUP_DETAILS": {
+            "description": "Set You  Group Name.",
+            "required": false,
+            "value": "default"
+        },
+        "CHAT_BOT": {
+            "description": "To enable / disable the AI chat bot. Use true to enable AI chat bot and true to activate AI chat bot.",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "Need to show user whether bot message seen or not?",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "Heroku",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below.",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Use the same App name as first.",
+            "required": true
+        },
+        "MUTE_MESSAGE": {
+            "description": "Message received when mute a group. If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
+            "required": false,
+            "value": "no chats added"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Message received when unmuteing a group.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Modifiable chat block notification. If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Modifiable chat unblock notification. If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot.",
+            "required": true,
+            "value": "public"
+        },       
+        "DEBUG": {
+            "description": "If you do not know this. Give it up.",
+            "required": true,
+            "value": "false"
+        },
+        "VOICE_CHAT": {
+            "description": "REPLY ANYONE MSG FOR VOICE ( THIS FEATURE coming soon )",
+            "required": true,
+            "value": "false"
+
+        },
+        "WELCOME_LOGO": {
+            "description": "To change the welcome message video, enter your video link below",
+            "required": true,
+            "value":"https://telegra.ph/file/4ce438f1111969bdd9df1.mp4"
+        },
+        "BYE_LOGO": {
+            "description": "Below is your video link to change Goodbye message video.",
+            "required": true,
+            "value":"https://telegra.ph/file/3a2582be8423628a180c0.gif"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
+            "required": false
+        },
+        "ALIVE_MESSAGE": {
+            "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "The message you get when someone commands you as .ban and removes it. If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MESSAGE": {
+            "description": "If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "NO_ONLINE": {
+            "description": "This is not necessarily the case.",
+            "required": false,
+            "value": "true"
+        },
+        "CAPTION": {
+            "description": "LOGO MAKER CAPTION",
+            "required": true,
+            "value": "   ▷ ᴹᴬᴰᴱ 🄱🅈 [🇱🇰𝐊𝐢𝐧𝐠 𝐁𝐨𝐭✌️] աɦ𝐚𝐭𝐬𝐚𝐩𝐩 𝐔𝐬𝐞𝐫 𝐁𝐨𝐭  "
+        },
+        "COFFEEHOUSE_API_KEY": {
+            "description": "Give it up. We give you this.",
+            "required": false,
+            "value": "true"
+        }
+    },
+  "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
