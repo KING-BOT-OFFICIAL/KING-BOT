@@ -1,11 +1,12 @@
-FROM fusuf/whatsasena:latest
+FROM node:latest
 
-RUN git clone https://github.com/Dark-Max-Alpha/repo-new /root/repo-new
-WORKDIR /root/repo-new/
+RUN git clone https://github.com/KING-BOT-OFFICIAL/KING-BOT /root/KING-BOT
+WORKDIR /root/KING-BOT/
+RUN git clone https://github.com/KING-BOT-OFFICIAL/KING-BOT
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
 
-CMD ["node", "assets/module.js"]
+CMD ["node", "bot.js"]
 
 
