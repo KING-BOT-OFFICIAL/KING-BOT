@@ -1,4 +1,4 @@
-<div align="center"><h1>❖❖❖❖❖ 𝐊𝐈𝐍𝐆 𝙱𝙾𝚃 ❖❖❖❖❖</h1></div>
+<div align="center"><h1>❖❖❖❖ 𝐊𝐈𝐍𝐆 𝙱𝙾𝚃 ❖❖❖❖</h1></div>
 	
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F70000&background=82FF3400&lines=%F0%9F%98%8AHi........%E2%9C%8C%EF%B8%8F;Welcome+to+King+Bot+Github+Page.;You+can+create+your+own+King++bot.;Scan++the+QR+Code.;Deploy+to+heroku.;And+use+bot+in+whatsapp.;Ok.+Follow+this+steps....)](https://git.io/typing-svg)
 
