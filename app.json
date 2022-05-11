@@ -1,21 +1,17 @@
 {
-    "name": "⎝🛡️ ALPHA 🛡️⎠ WhatsApp User Bot v4.0.0",
-    "description": "World best Sinhala/English WhatsApp Button Bot Developer Achi Fernando Enjoy Our Bot",
-    "logo": "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg",
-    "keywords": ["Achi Bro lk | PG", "ALPHA"],
+    "name": "⎝🌲Ҝ丨几Ꮆ🌲⎠ WhatsApp User Bot V1.0.0",
+    "description": "World best Sinhala/English WhatsApp Button Bot Developer white hackers Enjoy Our Bot",
+    "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
+    "keywords": ["Tech With A.N.G. | bot", "KINGBOT"],
     "stack": "container",
     "env": {
-      "ALPHA_SESSION": {
-            "description": "Paste your QR session that you got from https://replit.com/@CTBOT/Alpha-Qr?v=1. ඇල්ෆා qr කේතය යොදන්න.",
+      "KINGBOT_SESSION": {
+            "description": "Paste your QR session that you got from https://replit.com/@ACSamankumara/King-bot-2?v=1. KINGBOT qr කේතය යොදන්න.",
             "required": true
-        },
-        "BUTTON_CMD": {
-            "description": "YOU NEED BUTTON COMMANDS TYPE ( btn ) YOU NEED TEXT COMMAND TYPE ( txt ) බටන් කමාන්ඩ් සමහර ෆෝන් වලට වැඩ කරන් නෑ..",
-            "value":"btn"
         },
           "MENU_CMD": {
             "description": "TYPE YOUR MENU COMMAND.ඔබෙ මෙනු එක ගැනිම සදහා අවශ්‍ය නම් විදානයක් සකසන්න.",
-            "value":"alpha"
+            "value":"menu"
         },      
         "ALIVE_LOGO": {
             "description": "If you do not want to change Alive Logo put here to your image direct link or, type default. ඔබගෙ alive logo එක සාදහා ඔබෙ logo එකක් යේදිමට අවශ්‍ය නම් මෙහි link එක යොදන්න.",
@@ -24,19 +20,19 @@
         },
         "SONG_UPLOAD": {
             "description": "SONG UPLOAFING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value": "🖲️.  *ඔබ සෙවූ ගීතය ඔබ වෙත එවමින් ඇත....*"
+            "value": "*🖲️ [🇱🇰𝙺𝙸𝙽𝙶 𝙱𝙾𝚃🤘] is uploading your song! 🤗*"
         },
         "SONG_DOWNLOAD": {
             "description": "SONG DOWNLOADING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value": "🖲️.  *ඔබ සෙවූ ගීතය බාගත කරමින් ඇත....*"
+            "value": "*🖲️ [🇱🇰𝙺𝙸𝙽𝙶 𝙱𝙾𝚃🤘] is downloading your song! 🤗*"
         },
         "VIDEO_UPLOAD": {
             "description": "VIDEO UPLOADING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value":"🔮.  *ඔබ ඉල්ලූ  විඩීයෝව ඔබ වෙත එවමින් ඇත.*"
+            "value":"*🖲️ [🇱🇰𝙺𝙸𝙽𝙶 𝙱𝙾𝚃🤘] is uploading your video! 🤗*"
         },
         "VIDEO_DOWNLOAD": {
             "description": "VIDEO DOWNLOADING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value":"🔮.  *ඔබ  ඉල්ලූ විඩීයෝව  බාගත කරමින් ඇත....*"
+            "value":"*🖲️ [🇱🇰𝙺𝙸𝙽𝙶 𝙱𝙾𝚃🤘] is downloading your video! 🤗*"
         },
         "TIME_ZONE": {
             "description": "YOUR COUNTRY TIME ZONE ලන්කාවෙ අය තියන විදිහට තියන්න..",
@@ -196,7 +192,7 @@
         "CAPTION": {
             "description": "LOGO MAKER CAPTION  මෙහි ඔබගෙ බොට්ගෙ නම යොදන්න. ",
             "required": true,
-            "value": "   ▷ ᴹᴬᴰᴱ 🄱🅈 ⎝🛡️ ALPHA 🛡️⎠│"
+            "value": "   ▷ ᴹᴬᴰᴱ 🄱🅈 [🇱🇰𝙺𝙸𝙽𝙶 𝙱𝙾𝚃🤘]│"
         },
         "COFFEEHOUSE_API_KEY": {
             "description": "Give it up. We give you this. කිසිවක් වෙනස් නොකරන්න. ",
